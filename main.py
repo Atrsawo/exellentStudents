@@ -31,7 +31,7 @@ try:
                 md =(myItem[0], myItem[1],myItem[2], myItem[3])
         exlStudents = [cs, hs, bl, md]
 except FileNotFoundError:
-    raise Exception('File not open or cant open it' )#throwing an execption if file coudn't found or coudn't open
+    raise Exception('File not found or cant open it' )#throwing an execption if file coudn't found or coudn't open
 
 ###################################
 #opening the output file
