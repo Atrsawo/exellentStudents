@@ -34,7 +34,7 @@ except FileNotFoundError:
     raise Exception('File not open or cant open it' )#throwing an execption if file coudn't found or coudn't open
 
 ###################################
-#opening the output file
+#opening the output file and write the result
 ###################################
 
 with open('excellentStudents.tsv', 'w') as myFile:
